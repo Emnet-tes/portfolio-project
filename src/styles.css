@@ -12,6 +12,14 @@ h1,h2,h3,h4,h5,h6{
 h1{
     font-size: 96px;
 }
+h2{
+    font-size: 64px;
+}
+p{
+    font-weight: normal;
+    font-size: 16 px;
+    line-height: 30px;
+}
 body{
     font-family: var(--default-font-family)
 }
@@ -19,16 +27,15 @@ body{
 .hero{
     background-color:var(--secondary-color);
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 160px 40px;
+    
 }
 .hero p{
     color: #272142;
     font-size: 36px;
     font-weight: bold;
     margin: 0;
+    line-height: 1.5;
 }
 .hero h2{
     color: #272142;
@@ -43,5 +50,35 @@ body{
     background-color:var(--branding-color) ;
     color: white;
     text-decoration: none;
+}
+.btn-branding-outline{
+    color:var(--branding-color);
+    padding: 15px 30px;
+    border-radius: 4px;
+    border:1px solid  var(--branding-color);
+}
+img{
+    width: 560px;
+    height: 560px;
+}
+.project-description{
+    padding:80px  60px 60px;
+    
+}
+@media(max-width:900px){
+    h1,h2{
+        font-size:44px;
+    }
+    .project-description{
+        padding: 0;
+        text-align: center;
+    }
+    .hero{
+        padding: 80px 20px;
+    }
+
+}
+.dont-have{
+    background-color: #F9F7FE;
 }
 
