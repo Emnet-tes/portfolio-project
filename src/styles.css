@@ -96,7 +96,11 @@ img{
     }
     .about-section{
         text-align: center;
-        padding: 0;
+        padding:0;
+    }
+    .about-section img{
+        width: auto;
+        height: 300px;
     }
 }
 
