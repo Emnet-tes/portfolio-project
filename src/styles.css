@@ -44,6 +44,24 @@ body{
     font-size: 24px;
     line-height: 2;
 }
+
+.about-section h1{
+    font-size: 64px;
+    line-height: 80px;
+}
+.about-section h2{
+    font-size: 18px;
+    font-family:var(--default-font-family) ;
+}
+.about-section img{
+    border-radius: 20px;
+}
+.about-section{
+    padding: 160px 40px;
+}
+.about-section-content{
+    margin:30px
+}
 .btn-branding{
     padding: 15px 30px;
     border-radius: 4px;
@@ -67,7 +85,7 @@ img{
 }
 @media(max-width:900px){
     h1,h2{
-        font-size:44px;
+        font-size:42px;
     }
     .project-description{
         padding: 0;
@@ -76,6 +94,9 @@ img{
     .hero{
         padding: 80px 20px;
     }
-
+    .about-section{
+        text-align: center;
+        padding: 0;
+    }
 }
 
