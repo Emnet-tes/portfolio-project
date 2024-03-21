@@ -24,6 +24,7 @@ body{
     font-family: var(--default-font-family)
 }
 
+
 .hero{
     background-color:var(--secondary-color);
     text-align: center;
@@ -91,6 +92,34 @@ img{
     padding:80px  60px 60px;
     
 }
+
+.logo {
+    width: 50px;
+    max-height: 50px;
+}
+nav{
+    padding:20px 0;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left:10px;
+}
+nav a{
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+}
+nav a:hover,nav li.active a{
+    color: var(--branding-color);
+}
+
+
 @media(max-width:900px){
     h1,h2{
         font-size:42px;
@@ -109,6 +138,14 @@ img{
     .content-container img{
         width: auto;
         height: 300px;
+    }
+    .logo{
+        width: 30px;
+        height: 40px;
+    }
+    nav li{
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }
 
