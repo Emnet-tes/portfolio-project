@@ -15,6 +15,9 @@ h1{
 h2{
     font-size: 64px;
 }
+h4{
+    font-size: 48px;
+}
 p{
     font-weight: normal;
     font-size: 16 px;
@@ -118,8 +121,37 @@ nav a{
 nav a:hover,nav li.active a{
     color: var(--branding-color);
 }
-
-
+footer{
+    margin:40px 0;
+} 
+footer .contact-box{
+    background-color: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+.contact-box p{
+    margin: 0;
+}
+.email-link{
+    color:black;
+    font-size: 24px;
+    text-decoration: none;
+}
+.email-link:hover{
+    color:var(--branding-color);
+}
+footer .social-link a{
+    margin: 0 20px;
+    background-color: var(--secondary-color);
+    padding: 10px 13px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: var(--branding-color);
+}
+footer .social-link a:hover{
+    color:white;
+    background-color: var(--branding-color);
+}
 @media(max-width:900px){
     h1,h2{
         font-size:42px;
@@ -146,6 +178,7 @@ nav a:hover,nav li.active a{
     nav li{
         margin-left: 5px;
         margin-right: 5px;
+        
     }
 }
 
