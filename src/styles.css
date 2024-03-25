@@ -15,7 +15,7 @@ h1{
 h2{
     font-size: 64px;
 }
-h4{
+h3{
     font-size: 48px;
 }
 p{
@@ -31,7 +31,7 @@ body{
 .hero{
     background-color:var(--secondary-color);
     text-align: center;
-    padding: 160px 40px;
+    padding: 80px 40px;
     
 }
 .hero p{
@@ -69,7 +69,7 @@ font-size: 14px;
     border-radius: 20px;
 }
 .content-container{
-    padding: 160px 40px;
+    padding: 60px 40px;
 }
 .content{
     margin:30px
@@ -159,9 +159,6 @@ footer .social-link a:hover{
     .project-description{
         padding: 0;
         text-align: center;
-    }
-    .hero{
-        padding: 80px 20px;
     }
     .content-container{
         text-align: center;
