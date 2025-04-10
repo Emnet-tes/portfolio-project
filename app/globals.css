@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tech-icons-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 500px;
+  height: 100vh;
+  pointer-events: none;
+}
+
+.tech-icon {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  backdrop-filter: blur(4px);
+  background: rgba(30, 30, 30, 0.2);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  pointer-events: auto;
+}
+
+.tech-icon:hover {
+  backdrop-filter: blur(0);
+  background: rgba(30, 30, 30, 0.4);
+  transform: scale(1.1);
+}
+
+.tech-icon svg {
+  width: 35px;
+  height: 35px;
+}
+
+/* Define positions for each icon */
+.icon-1 { top: 25%; right: 30%; }
+.icon-2 { top: 40%; right: 45%; }
+.icon-3 { top: 50%; right: 25%; }
+.icon-4 { top: 60%; right: 40%; }
+.icon-5 { top: 35%; right: 15%; }
+.icon-6 { top: 70%; right: 20%; }
