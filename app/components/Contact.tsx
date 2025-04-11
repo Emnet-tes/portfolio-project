@@ -4,12 +4,12 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white pt-20">
-      <div className="container mx-auto px-6">
-        <h1 className="text-7xl font-bold mb-20">Let&apos;s get in touch!</h1>
+    <div className="min-h-screen  text-white pt-20">
+      <div className=" mx-auto px-6">
+        <h1 className="text-6xl font-bold mb-20 text-center">Let&apos;s get in touch!</h1>
 
-        <div className="max-w-6xl mx-auto bg-gray-900/50 rounded-2xl p-12 mb-20">
-          <div className="flex flex-col md:flex-row justify-between items-center">
+        <div className="max-w-6xl mx-auto  rounded-2xl p-6 mb-18">
+          <div className="flex flex-col md:flex-row justify-around items-center">
             <div>
               <h2 className="text-5xl font-bold mb-4">Work Inquiry</h2>
               <p className="text-xl text-gray-300">Let&apos;s work together.</p>
