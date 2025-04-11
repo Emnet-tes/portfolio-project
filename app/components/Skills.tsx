@@ -86,7 +86,7 @@ const Skills = () => {
   return (
    <>
     {/* Skills Section */}
-    <div className=" bg-gradient-to-b from-blue-500 to-blackcontainer mx-auto px-6 py-20" >
+    <div className=" container mx-auto px-6 py-20" >
         <h2 className="text-4xl font-bold text-center mb-16">Technical Skills</h2>
         <div className="max-w-5xl mx-auto space-y-16">
           {/* Expert Level */}
