@@ -15,7 +15,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Emnet Teshome | Developer",
-  description: "Portfolio of Emnet Teshome - A passionate  Developer crafting impactful digital solutions through clean code and modern design.",
+  description:
+    "Portfolio of Emnet Teshome - A passionate  Developer crafting impactful digital solutions through clean code and modern design.",
 };
 
 export default function RootLayout({
@@ -28,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar/>
+        <Navbar />
         {children}
       </body>
     </html>
