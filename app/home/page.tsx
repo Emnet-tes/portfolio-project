@@ -14,12 +14,12 @@ const Home = () => {
     <div className="min-h-screen bg-gradient-to-b from-blue-500 to-black text-white pt-20 relative">
       <section
         id="home"
-        className="pt-20 bg-gradient-to-b from-blue-500 to-black"
+        className="md:pt-20 bg-gradient-to-b from-blue-500 to-black"
       >
         {/* Hero Section */}
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto md:px-6">
           <div className="flex items-center justify-between">
-            <div className="max-w-2xl p-20">
+            <div className="max-w-2xl p-4 md:p-20">
               <h1 className="text-5xl font-bold mb-6">
                 Crafting <span className="text-blue-400">impactful</span>{" "}
                 digital solutions.
@@ -38,9 +38,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-        {/* Floating Tech Icons */}
 
-        <div className="absolute top-30 right-20 min-w-2/7 h-92 rounded-3xl">
+        <div className="absolute top-30 right-20 min-w-2/7 h-92 rounded-3xl hidden md:block">
           <Image
             src="/Emenet Teshome.jpg"
             alt="Profile Photo"

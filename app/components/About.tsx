@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -20,26 +20,31 @@ const About = () => {
               <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-500 opacity-10"></div>
             </div>
           </div>
-            {/* Right Column - Photo */}
+          {/* Right Column - Photo */}
           <div className="md:w-1/2">
             <h2 className="text-4xl font-bold mb-4">About Me</h2>
-            <h3 className="text-2xl text-blue-400 mb-6">Front-end Developer, based in Ethiopia</h3>
+            <h3 className="text-2xl text-blue-400 mb-6">
+              Front-end Developer, based in Ethiopia
+            </h3>
             <div className="space-y-4 text-gray-300">
               <p className="text-lg">
-                As a software developer, I have worked on various projects that span different industries and technologies.
+                As a software developer, I have worked on various projects that
+                span different industries and technologies.
               </p>
               <p className="text-lg">
-              I&apos;ve worked on projects like Tech Compass, a platform designed to guide students through personalized tech roadmaps based on assessments, and Tadiyas AASTU, a website magazine built to showcase the talents and achievements of university students.
+                I&apos;ve worked on projects like Tech Compass, a platform
+                designed to guide students through personalized tech roadmaps
+                based on assessments, and Tadiyas AASTU, a website magazine
+                built to showcase the talents and achievements of university
+                students.
               </p>
               <p className="text-lg">
-                My work is driven by the goal of creating intuitive and functional digital experiences, 
-                always focusing on clean code, performance, and scalability.
+                My work is driven by the goal of creating intuitive and
+                functional digital experiences, always focusing on clean code,
+                performance, and scalability.
               </p>
             </div>
           </div>
-
-        
-         
         </div>
       </div>
     </div>
